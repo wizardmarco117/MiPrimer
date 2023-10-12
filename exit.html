@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        /* ... Estilos CSS (los mismos que mencioné anteriormente) ... */
+    </style>
+</head>
+<body>
+    <div id="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form id="login-form">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="button" id="login-button">Iniciar Sesión</button>
+            <button type="button" id="exit-button">Salir</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('login-button').addEventListener('click', function () {
+            // Simplemente redirigir al usuario a la página deseada
+            window.location.href = 'file:///home/marco/Escritorio/html/sesion.html'; // Reemplaza 'index2.html' con la URL de tu página deseada
+        });
+
+        document.getElementById('exit-button').addEventListener('click', function () {
+            // Simplemente redirigir al usuario a la página deseada al hacer clic en el botón "Salir"
+            window.location.href = 'file:///home/marco/Escritorio/html/sesion.html'; // Reemplaza 'index.html' con la URL de tu página deseada
+        });
+    </script>
+</body>
+</html>

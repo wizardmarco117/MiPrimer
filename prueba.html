@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #f30808;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center; /* Centra el texto en el encabezado */
+        }
+
+        /* Estilos para la barra de navegación */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Cambia el color del texto de la barra de navegación a blanco */
+        }
+
+        /* Estilos para el contenido principal */
+        main {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #39f713;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Estilos para la imagen */
+        .image-container {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="secion.html">Sesión</a></li>
+                <li><a href="donaciones.html">Donaciones</a></li>
+                <li><a href="prueba.html">Prueba</a></li>
+                <li><a href="exit.html">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="image-container">
+        <img src="sergio.jpeg" alt="imagen">
+    </div>
+</body>
+</html>
